@@ -1,0 +1,776 @@
+2025-08-08 19:41:46,599 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 19:41:46,599 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:41:46,605 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 19:41:46,605 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 19:41:46,606 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 19:42:02,756 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 19:42:02,756 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 19:42:04,206 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T14:12:04.206674",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754662322779
+  },
+  "status_code": 401,
+  "response_time_ms": 1427.54
+}
+2025-08-08 19:42:04,206 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T14:12:04.206674",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "API-key format invalid.",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2014
+}
+2025-08-08 19:42:35,057 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 19:42:35,057 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 19:42:41,008 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T14:12:41.008871",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/positionRisk",
+  "method": "GET",
+  "params": {
+    "symbol": "BTCUSD",
+    "timestamp": 1754662360212
+  },
+  "status_code": 401,
+  "response_time_ms": 796.66
+}
+2025-08-08 19:42:41,008 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T14:12:41.008871",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "API-key format invalid.",
+  "endpoint": "/fapi/v2/positionRisk",
+  "status_code": 401,
+  "error_code": -2014
+}
+2025-08-08 19:42:41,008 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T14:12:41.008871",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "API-key format invalid.",
+  "symbol": "BTCUSD",
+  "side": "BUY",
+  "quantity": 1.0,
+  "take_profit_price": 10.0,
+  "stop_loss_price": 5.0
+}
+2025-08-08 19:42:53,148 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:53,148 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:53,149 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:53,149 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:53,149 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 19:42:53,150 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:53,150 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:53,150 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 19:42:53,150 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:53,150 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 19:42:53,151 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 19:42:53,151 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 19:42:58,123 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:58,124 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:58,124 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:58,125 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:42:58,125 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 19:42:58,125 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:42:58,125 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:58,126 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 19:42:58,126 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:42:58,126 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 19:42:58,127 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 19:42:58,127 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 19:43:03,279 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:43:03,280 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:43:03,280 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:43:03,280 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 19:43:03,281 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 19:43:03,281 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 19:43:03,281 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:43:03,281 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 19:43:03,282 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 19:43:03,282 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 19:43:03,282 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 19:43:03,282 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 20:52:18,028 - binance_bot - ERROR - Invalid API configuration. Please set API_KEY and API_SECRET
+2025-08-08 20:54:17,954 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 20:54:17,955 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 20:54:17,956 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 20:54:17,956 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 20:54:17,956 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 20:54:17,957 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 20:54:17,957 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 20:54:17,957 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 20:54:17,957 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 20:54:17,958 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 20:54:17,958 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 20:54:17,965 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 20:54:19,239 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:24:19.239483",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754666657975
+  },
+  "status_code": 401,
+  "response_time_ms": 1263.88
+}
+2025-08-08 20:54:19,239 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:24:19.239483",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 20:56:33,561 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 20:56:33,562 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 20:56:33,563 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 20:56:34,109 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:26:34.109131",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754666793571
+  },
+  "status_code": 401,
+  "response_time_ms": 537.94
+}
+2025-08-08 20:56:34,109 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:26:34.109131",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:00:29,742 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:00:29,743 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:00:29,744 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:00:29,744 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:00:29,745 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:00:29,745 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:00:29,746 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:00:29,746 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:00:29,746 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:00:29,747 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:00:29,747 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:00:29,747 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:00:30,721 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:30:30.721969",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754667029766
+  },
+  "status_code": 401,
+  "response_time_ms": 954.74
+}
+2025-08-08 21:00:30,721 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:30:30.721969",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:04:52,298 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:04:52,299 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:04:52,299 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:04:52,300 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:04:52,300 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:04:52,300 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:04:52,301 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:04:52,301 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:04:52,302 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:04:52,302 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:04:52,302 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:04:52,303 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:04:52,985 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:34:52.985093",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754667292316
+  },
+  "status_code": 401,
+  "response_time_ms": 668.21
+}
+2025-08-08 21:04:52,985 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:34:52.985093",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:06:35,322 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:06:35,323 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:06:35,323 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:06:35,323 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:06:35,323 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:06:35,323 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:06:35,324 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:06:35,324 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:06:35,325 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:06:35,325 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:06:35,326 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:06:35,326 - binance_bot - INFO - Configuration: {'use_testnet': False, 'base_url': 'https://fapi.binance.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:06:35,683 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:36:35.683401",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754667395341
+  },
+  "status_code": 401,
+  "response_time_ms": 341.78
+}
+2025-08-08 21:06:35,684 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:36:35.684399",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:10:41,887 - binance_bot - ERROR - Invalid API configuration. Please set API_KEY and API_SECRET
+2025-08-08 21:13:29,716 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:13:29,717 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:13:30,609 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:43:30.609164",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754667809728
+  },
+  "status_code": 401,
+  "response_time_ms": 881.02
+}
+2025-08-08 21:13:30,609 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:43:30.609164",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:17:12,786 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:17:12,788 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:17:12,789 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:17:12,793 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:17:12,797 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:17:12,798 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:17:12,800 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:17:12,802 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:17:12,803 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:17:12,804 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:17:12,804 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:17:12,804 - binance_bot - INFO - Configuration: {'use_testnet': False, 'base_url': 'https://fapi.binance.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:17:13,288 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:47:13.288028",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754668032885
+  },
+  "status_code": 401,
+  "response_time_ms": 402.3
+}
+2025-08-08 21:17:13,288 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:47:13.288028",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:20:20,662 - binance_bot - ERROR - Invalid API configuration. Please set API_KEY and API_SECRET
+2025-08-08 21:21:48,517 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:21:48,521 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:21:48,521 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:21:48,521 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:21:48,525 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:21:48,527 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:21:48,527 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:21:48,527 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:21:48,527 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:21:48,527 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:21:48,531 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:21:48,531 - binance_bot - INFO - Configuration: {'use_testnet': False, 'base_url': 'https://fapi.binance.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:21:48,977 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:51:48.977091",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754668308574
+  },
+  "status_code": 401,
+  "response_time_ms": 402.17
+}
+2025-08-08 21:21:48,977 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:51:48.977091",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:21:59,059 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:21:59,061 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:21:59,061 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:21:59,061 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:21:59,061 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:21:59,061 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:21:59,067 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:21:59,067 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:21:59,067 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:21:59,072 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:21:59,072 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:21:59,072 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:21:59,976 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:51:59.976346",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754668319117
+  },
+  "status_code": 401,
+  "response_time_ms": 859.2
+}
+2025-08-08 21:21:59,976 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:51:59.976346",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:26:30,997 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:26:31,005 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:26:31,009 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:26:31,015 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:26:31,018 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:26:31,024 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:26:31,025 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:26:31,026 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:26:31,027 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:26:31,041 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:26:31,043 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:26:31,044 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:26:32,065 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:56:32.065485",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754668591103
+  },
+  "status_code": 401,
+  "response_time_ms": 961.72
+}
+2025-08-08 21:26:32,065 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:56:32.065485",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:27:03,647 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:27:03,647 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:27:03,647 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:27:03,652 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:27:03,653 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:27:03,655 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:27:03,660 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:27:03,662 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:27:03,664 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:27:03,665 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:27:03,667 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:27:03,667 - binance_bot - INFO - Configuration: {'use_testnet': False, 'base_url': 'https://fapi.binance.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:27:04,399 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:57:04.399382",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754668623722
+  },
+  "status_code": 401,
+  "response_time_ms": 677.34
+}
+2025-08-08 21:27:04,399 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:57:04.399382",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:27:20,977 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:27:20,982 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:27:20,983 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:27:20,985 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:27:20,985 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:27:20,985 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:27:20,987 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:27:20,987 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:27:20,987 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:27:20,987 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:27:20,987 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:27:20,987 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:27:26,988 - binance_bot - INFO - Placing market order: BUY 0.001 BTCUSDT
+2025-08-08 21:27:27,349 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:57:27.347702",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v1/ticker/price",
+  "method": "GET",
+  "params": {
+    "symbol": "BTCUSDT"
+  },
+  "status_code": 200,
+  "response_time_ms": 350.83
+}
+2025-08-08 21:27:27,350 - binance_bot - INFO - Current price for BTCUSDT: 115252.0
+2025-08-08 21:27:27,352 - binance_bot - INFO - ORDER: {
+  "timestamp": "2025-08-08T15:57:27.352024",
+  "type": "ORDER",
+  "order_type": "MARKET",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.001,
+  "price": null,
+  "status": "PLACING",
+  "order_id": null,
+  "params": {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "type": "MARKET",
+    "quantity": "0.001",
+    "timeInForce": "GTC",
+    "reduceOnly": false,
+    "closePosition": false,
+    "workingType": "CONTRACT_PRICE",
+    "priceProtect": false
+  }
+}
+2025-08-08 21:27:27,570 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T15:57:27.570358",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v1/order",
+  "method": "POST",
+  "params": {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "type": "MARKET",
+    "quantity": "0.001",
+    "timeInForce": "GTC",
+    "reduceOnly": false,
+    "closePosition": false,
+    "workingType": "CONTRACT_PRICE",
+    "priceProtect": false,
+    "timestamp": 1754668647352
+  },
+  "status_code": 401,
+  "response_time_ms": 217.72
+}
+2025-08-08 21:27:27,570 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:57:27.570358",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v1/order",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:27:27,570 - binance_bot - INFO - ORDER: {
+  "timestamp": "2025-08-08T15:57:27.570358",
+  "type": "ORDER",
+  "order_type": "MARKET",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.001,
+  "price": null,
+  "status": "FAILED",
+  "order_id": null,
+  "error": "Invalid API-key, IP, or permissions for action"
+}
+2025-08-08 21:27:27,570 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T15:57:27.570358",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.001
+}
+2025-08-08 21:48:15,888 - binance_bot - ERROR - Invalid API configuration. Please set API_KEY and API_SECRET
+2025-08-08 21:48:34,025 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:48:34,026 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:48:34,027 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:48:34,027 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:48:34,027 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:48:34,027 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:48:34,028 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:48:34,028 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:48:34,028 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:48:34,028 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:48:34,029 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:48:34,029 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+2025-08-08 21:48:35,833 - binance_bot - INFO - API: {
+  "timestamp": "2025-08-08T16:18:35.833589",
+  "type": "API_CALL",
+  "endpoint": "/fapi/v2/account",
+  "method": "GET",
+  "params": {
+    "timestamp": 1754669914040
+  },
+  "status_code": 401,
+  "response_time_ms": 1790.55
+}
+2025-08-08 21:48:35,833 - binance_bot - ERROR - ERROR: {
+  "timestamp": "2025-08-08T16:18:35.833589",
+  "type": "ERROR",
+  "error_type": "API_ERROR",
+  "message": "Invalid API-key, IP, or permissions for action",
+  "endpoint": "/fapi/v2/account",
+  "status_code": 401,
+  "error_code": -2015
+}
+2025-08-08 21:48:41,572 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:48:41,573 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:48:41,574 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:48:41,574 - binance_bot - INFO - StopLimitOrderManager initialized
+2025-08-08 21:48:41,575 - binance_bot - INFO - OCOOrderManager initialized
+2025-08-08 21:48:41,575 - binance_bot - INFO - MarketOrderManager initialized
+2025-08-08 21:48:41,575 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:48:41,575 - binance_bot - INFO - TWAPOrderManager initialized
+2025-08-08 21:48:41,576 - binance_bot - INFO - LimitOrderManager initialized
+2025-08-08 21:48:41,576 - binance_bot - INFO - GridOrderManager initialized
+2025-08-08 21:48:41,576 - binance_bot - INFO - Binance Futures Trading Bot CLI initialized
+2025-08-08 21:48:41,576 - binance_bot - INFO - Configuration: {'use_testnet': True, 'base_url': 'https://testnet.binancefuture.com', 'log_file': 'bot.log', 'log_level': 'INFO', 'default_leverage': 1, 'max_position_size': 1000.0}
+{"timestamp": "2025-08-08T22:25:56.184583", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:25:57.175767", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 990.1833534240723}
+{"timestamp": "2025-08-08T22:25:57.561480", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754672157175, "signature": "18084634f0bca6357efd48f574a6a24730186c2e045f61cf746b478e0f19795f"}, "status_code": 401, "response_time_ms": 385.7131004333496}
+{"timestamp": "2025-08-08T22:25:57.562665", "level": "ERROR", "logger": "binance_bot", "message": "API-key format invalid.", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2014}
+{"timestamp": "2025-08-08T22:25:57.562665", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: API-key format invalid.", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:28:12.457422", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:28:13.159226", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 700.8039951324463}
+{"timestamp": "2025-08-08T22:28:13.322062", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754672293160, "signature": "515f8bfed48a8d082dabc54683825e5518a53054eb01bfce03750f8b15ac7af2"}, "status_code": 401, "response_time_ms": 161.83161735534668}
+{"timestamp": "2025-08-08T22:28:13.322062", "level": "ERROR", "logger": "binance_bot", "message": "API-key format invalid.", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2014}
+{"timestamp": "2025-08-08T22:28:13.322062", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: API-key format invalid.", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:34:04.265276", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:34:05.003284", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 737.0073795318604}
+{"timestamp": "2025-08-08T22:34:05.381270", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754672645003, "signature": "8f85455f1a1e111336acfa827c13c37a0067a530dc0d65c535d723bbdba82a77"}, "status_code": 401, "response_time_ms": 377.98619270324707}
+{"timestamp": "2025-08-08T22:34:05.382271", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:34:05.382271", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:34:53.238075", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v2/account", "method": "GET", "params": {"timestamp": 1754672692080, "signature": "a5cf610237bd6154cb342cfc1903cd231e3143bc3fc0dc064520f830f81d1fdb"}, "status_code": 401, "response_time_ms": 1157.7465534210205}
+{"timestamp": "2025-08-08T22:34:53.239071", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v2/account", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:35:20.342190", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:35:21.625356", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 1283.1661701202393}
+{"timestamp": "2025-08-08T22:35:21.828026", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754672721626, "signature": "0967ef5c1381365fc35f989c74cb5a158e4c981b261ac6d8c59f4475fd42c673"}, "status_code": 401, "response_time_ms": 201.66802406311035}
+{"timestamp": "2025-08-08T22:35:21.829026", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:35:21.829026", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:37:26.530318", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 862.4682426452637}
+{"timestamp": "2025-08-08T22:38:15.292660", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:38:15.909573", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 615.9121990203857}
+{"timestamp": "2025-08-08T22:38:16.418160", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754672895909, "signature": "6f24b49625ed176fb31676d58fff05c1be925b9d1deaaec8b6194857ab9c42d3"}, "status_code": 401, "response_time_ms": 508.587121963501}
+{"timestamp": "2025-08-08T22:38:16.418160", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:38:16.418160", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:38:21.398719", "level": "INFO", "logger": "binance_bot", "message": "LimitOrderManager initialized"}
+{"timestamp": "2025-08-08T22:38:22.121140", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 721.9085693359375}
+{"timestamp": "2025-08-08T22:38:22.719550", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "timeInForce": "GTC", "quantity": 0.001, "price": 115000.0, "reduceOnly": false, "timestamp": 1754672902122, "signature": "b863043052bde9b81535d63b057f3a7e1b369345fb7ea9fa094e2f3ebfa93aea"}, "status_code": 401, "response_time_ms": 597.4090099334717}
+{"timestamp": "2025-08-08T22:38:22.719550", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:38:22.719550", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001, "price": 115000.0}
+{"timestamp": "2025-08-08T22:39:31.282608", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v2/account", "method": "GET", "params": {"timestamp": 1754672970660, "signature": "88762fc47a2b1d12c5c63327901dcaa866e3711b6bd3a97bf17741cf57cc65a7"}, "status_code": 401, "response_time_ms": 621.9449043273926}
+{"timestamp": "2025-08-08T22:39:31.282608", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v2/account", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:41:46.641306", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:41:47.558284", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 915.8124923706055}
+{"timestamp": "2025-08-08T22:41:47.970752", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754673107559, "signature": "e1e0f040ce06e67791bad08f9d2df4cbcbae73d80076eff6c1ccde53b9e43e51"}, "status_code": 401, "response_time_ms": 411.2684726715088}
+{"timestamp": "2025-08-08T22:41:47.971755", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:41:47.971755", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:43:07.862970", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:43:12.276789", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 4413.290739059448}
+{"timestamp": "2025-08-08T22:43:13.583474", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754673192277, "signature": "cd275273b7e2bc38ddcb31c946b0ff353a642c52f1f59a5ced314f064cc9a569"}, "status_code": 401, "response_time_ms": 1306.2772750854492}
+{"timestamp": "2025-08-08T22:43:13.583474", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:43:13.583474", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:43:13.933641", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:43:18.597419", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 4663.777828216553}
+{"timestamp": "2025-08-08T22:43:18.597419", "level": "ERROR", "logger": "binance_bot", "message": "Quantity must be at least 0.001", "type": "ERROR", "error_type": "VALIDATION_ERROR", "field": "quantity", "value": 0.00042950234422379477}
+{"timestamp": "2025-08-08T22:43:18.597419", "level": "ERROR", "logger": "binance_bot", "message": "Quantity must be at least 0.001", "type": "ERROR", "error_type": "QUANTITY_CALCULATION_ERROR", "symbol": "BTCUSDT", "usdt_amount": 50.0}
+{"timestamp": "2025-08-08T22:43:24.873394", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:43:29.173433", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 4296.990871429443}
+{"timestamp": "2025-08-08T22:43:30.880116", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "SELL", "type": "MARKET", "quantity": 0.001, "reduceOnly": true, "timestamp": 1754673209176, "signature": "acc4e5a04cfed978dba874f13af0f32edea09951e00532e3685ca002996de2f7"}, "status_code": 401, "response_time_ms": 1703.34792137146}
+{"timestamp": "2025-08-08T22:43:30.880116", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:43:30.880116", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "SELL", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:45:57.963227", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:45:58.891162", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 925.9340763092041}
+{"timestamp": "2025-08-08T22:45:59.107316", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754673358891, "signature": "e8d06788b3841b97adad61787e831390bcce3366b066ec3a3bff9b48e5d1804e"}, "status_code": 401, "response_time_ms": 216.1548137664795}
+{"timestamp": "2025-08-08T22:45:59.108316", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:45:59.108316", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:47:14.179455", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:47:14.559577", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 380.12194633483887}
+{"timestamp": "2025-08-08T22:47:14.729491", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754673434559, "signature": "82fd94810712f05fcfb8603278d0c5221b2e229954b313e71a88114f79954201"}, "status_code": 401, "response_time_ms": 159.90972518920898}
+{"timestamp": "2025-08-08T22:47:14.738796", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:47:14.739800", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:47:15.079491", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:47:15.379557", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 300.0659942626953}
+{"timestamp": "2025-08-08T22:47:15.379557", "level": "ERROR", "logger": "binance_bot", "message": "Quantity must be at least 0.001", "type": "ERROR", "error_type": "VALIDATION_ERROR", "field": "quantity", "value": 0.00042882161535387215}
+{"timestamp": "2025-08-08T22:47:15.379557", "level": "ERROR", "logger": "binance_bot", "message": "Quantity must be at least 0.001", "type": "ERROR", "error_type": "QUANTITY_CALCULATION_ERROR", "symbol": "BTCUSDT", "usdt_amount": 50.0}
+{"timestamp": "2025-08-08T22:47:18.273574", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-08T22:47:18.859742", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 586.1680507659912}
+{"timestamp": "2025-08-08T22:47:19.240232", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "SELL", "type": "MARKET", "quantity": 0.001, "reduceOnly": true, "timestamp": 1754673438859, "signature": "baba5b844cecf8536afe309ab60c3bec8db5b626c5636798220b964b2689240b"}, "status_code": 401, "response_time_ms": 380.490779876709}
+{"timestamp": "2025-08-08T22:47:19.240232", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-08T22:47:19.240232", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "SELL", "quantity": 0.001}
+{"timestamp": "2025-08-08T22:48:13.295378", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 404, "response_time_ms": 484.87281799316406}
+{"timestamp": "2025-08-08T22:48:13.295378", "level": "ERROR", "logger": "binance_bot", "message": "Unknown error", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/ticker/price", "status_code": 404, "error_code": null}
+{"timestamp": "2025-08-09T11:50:46.839165", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-09T11:50:48.018773", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 1179.6081066131592}
+{"timestamp": "2025-08-09T11:50:48.631958", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754720448018, "signature": "59589d2de4821de46c5332aeeea4cd2f1f8f184f68c13502107512eecea10dc3"}, "status_code": 401, "response_time_ms": 613.1844520568848}
+{"timestamp": "2025-08-09T11:50:48.631958", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T11:50:48.631958", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-09T11:51:07.367855", "level": "INFO", "logger": "binance_bot", "message": "LimitOrderManager initialized"}
+{"timestamp": "2025-08-09T11:51:08.706404", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 1338.5491371154785}
+{"timestamp": "2025-08-09T11:51:09.216636", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "timeInForce": "GTC", "quantity": 0.001, "price": 30000.0, "reduceOnly": false, "timestamp": 1754720468706, "signature": "126d1600ce16ff15a540e29b983e71960246d234244c78fd1fa764cb6f32a50a"}, "status_code": 401, "response_time_ms": 510.23221015930176}
+{"timestamp": "2025-08-09T11:51:09.216636", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T11:51:09.217862", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001, "price": 30000.0}
+{"timestamp": "2025-08-09T11:51:27.188945", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v2/account", "method": "GET", "params": {"timestamp": 1754720486384, "signature": "93e6242d0bc37214ea86e8483dcfcd2a4d2056136dafa7a677a33b964893b6e5"}, "status_code": 401, "response_time_ms": 803.9753437042236}
+{"timestamp": "2025-08-09T11:51:27.189946", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v2/account", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T11:51:57.176790", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-09T11:51:58.494128", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 1317.3377513885498}
+{"timestamp": "2025-08-09T11:51:58.656885", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754720518494, "signature": "908aeae15c18bc01c9d4244845aa68751d27c4fce640bd36c0c697fd8dd2bd73"}, "status_code": 401, "response_time_ms": 162.2464656829834}
+{"timestamp": "2025-08-09T11:51:58.656885", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T11:51:58.656885", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-09T12:03:32.819587", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-09T12:03:33.656289", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 836.7018699645996}
+{"timestamp": "2025-08-09T12:03:34.074858", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754721213659, "signature": "257a6e96dd337c7d9e1c81a32dfed55025a9741ed673258c293928d0f133da0a"}, "status_code": 401, "response_time_ms": 414.9484634399414}
+{"timestamp": "2025-08-09T12:03:34.076391", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T12:03:34.076391", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-09T12:13:41.343028", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-09T12:13:41.894565", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 551.537275314331}
+{"timestamp": "2025-08-09T12:13:42.294437", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754721821894, "signature": "45f193776f150c0f548cb30171ae021b3ea1a8758f5e939ec21c5aa0d48394be"}, "status_code": 401, "response_time_ms": 399.8720645904541}
+{"timestamp": "2025-08-09T12:13:42.294437", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T12:13:42.304312", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-09T12:15:06.331110", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-09T12:15:07.848268", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 1517.157793045044}
+{"timestamp": "2025-08-09T12:15:08.015727", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754721907848, "signature": "ba81cc2efbf76add52bfd7fa7e30889c0e3ad25d2502ad0b8022020d81ee9eda"}, "status_code": 401, "response_time_ms": 167.45901107788086}
+{"timestamp": "2025-08-09T12:15:08.015727", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T12:15:08.015727", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-09T12:25:45.418761", "level": "INFO", "logger": "binance_bot", "message": "MarketOrderManager initialized"}
+{"timestamp": "2025-08-09T12:25:47.325135", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/ticker/price", "method": "GET", "params": {"symbol": "BTCUSDT"}, "status_code": 200, "response_time_ms": 1906.3735008239746}
+{"timestamp": "2025-08-09T12:25:47.797100", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/fapi/v1/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "reduceOnly": false, "timestamp": 1754722547325, "signature": "daadcd5d97eee3378a4b1ab10b67e4c8d9509da5e43dce9c787714d4361510a2"}, "status_code": 401, "response_time_ms": 471.96459770202637}
+{"timestamp": "2025-08-09T12:25:47.797100", "level": "ERROR", "logger": "binance_bot", "message": "Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "API_ERROR", "endpoint": "/fapi/v1/order", "status_code": 401, "error_code": -2015}
+{"timestamp": "2025-08-09T12:25:47.797100", "level": "ERROR", "logger": "binance_bot", "message": "API Error 401: Invalid API-key, IP, or permissions for action", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.001}
+{"timestamp": "2025-08-09T12:34:44.051053", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:35:08.779253", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:35:08.779253", "level": "ERROR", "logger": "binance_bot", "message": "BotLogger.info() got an unexpected keyword argument 'order_type'", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 10.0, "order_type": "MARKET"}
+{"timestamp": "2025-08-09T12:35:54.081709", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:35:54.081709", "level": "INFO", "logger": "binance_bot", "message": "Placing spot market order: BTCUSDT BUY $10.0 USDT"}
+{"timestamp": "2025-08-09T12:35:55.792436", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quoteOrderQty": 10.0, "timestamp": 1754723154081}, "status_code": 200, "response_time_ms": 1710.7267379760742}
+{"timestamp": "2025-08-09T12:35:55.796467", "level": "INFO", "logger": "binance_bot", "message": "Spot market order placed successfully - Order ID: 13519607, Executed: 0.00008000"}
+{"timestamp": "2025-08-09T12:36:03.027782", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:36:03.027782", "level": "INFO", "logger": "binance_bot", "message": "Placing spot market order: ETHUSDT BUY $5.0 USDT"}
+{"timestamp": "2025-08-09T12:36:03.951402", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "ETHUSDT", "side": "BUY", "type": "MARKET", "quoteOrderQty": 5.0, "timestamp": 1754723163027}, "status_code": 200, "response_time_ms": 923.6195087432861}
+{"timestamp": "2025-08-09T12:36:03.957331", "level": "INFO", "logger": "binance_bot", "message": "Spot market order placed successfully - Order ID: 9838576, Executed: 0.00120000"}
+{"timestamp": "2025-08-09T12:36:26.988686", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:36:26.989007", "level": "ERROR", "logger": "binance_bot", "message": "Quantity must be at least 0.001", "type": "ERROR", "error_type": "VALIDATION_ERROR", "field": "quantity", "value": 0.0001}
+{"timestamp": "2025-08-09T12:36:26.989007", "level": "ERROR", "logger": "binance_bot", "message": "Quantity must be at least 0.001", "type": "ERROR", "error_type": "ORDER_ERROR", "symbol": "BTCUSDT", "side": "BUY", "quantity": 0.0001, "order_type": "LIMIT", "price": 50000.0}
+{"timestamp": "2025-08-09T12:36:31.608880", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:36:32.753006", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/exchangeInfo", "method": "GET", "params": {}, "status_code": 200, "response_time_ms": 1144.1259384155273}
+{"timestamp": "2025-08-09T12:36:32.778680", "level": "INFO", "logger": "binance_bot", "message": "Placing spot limit order: BTCUSDT BUY 0.001 @ $50000.0"}
+{"timestamp": "2025-08-09T12:36:33.144071", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "timeInForce": "GTC", "quantity": 0.001, "price": 50000.0, "timestamp": 1754723192778}, "status_code": 200, "response_time_ms": 365.3912544250488}
+{"timestamp": "2025-08-09T12:36:33.152232", "level": "INFO", "logger": "binance_bot", "message": "Spot limit order placed successfully - Order ID: 13519652"}
+{"timestamp": "2025-08-09T12:37:01.439248", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:37:01.439248", "level": "INFO", "logger": "binance_bot", "message": "Placing spot market order: BTCUSDT BUY $10.0 USDT"}
+{"timestamp": "2025-08-09T12:37:02.825227", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quoteOrderQty": 10.0, "timestamp": 1754723221441}, "status_code": 200, "response_time_ms": 1383.9590549468994}
+{"timestamp": "2025-08-09T12:37:02.825227", "level": "INFO", "logger": "binance_bot", "message": "Spot market order placed successfully - Order ID: 13519692, Executed: 0.00008000"}
+{"timestamp": "2025-08-09T12:37:03.195402", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:37:03.990228", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/exchangeInfo", "method": "GET", "params": {}, "status_code": 200, "response_time_ms": 792.4530506134033}
+{"timestamp": "2025-08-09T12:37:04.013019", "level": "INFO", "logger": "binance_bot", "message": "Placing spot market order: BTCUSDT BUY 0.001"}
+{"timestamp": "2025-08-09T12:37:04.281214", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001, "timestamp": 1754723224014}, "status_code": 200, "response_time_ms": 266.89600944519043}
+{"timestamp": "2025-08-09T12:37:04.281214", "level": "INFO", "logger": "binance_bot", "message": "Spot market order placed successfully - Order ID: 13519697"}
+{"timestamp": "2025-08-09T12:37:06.765069", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:37:07.519631", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/exchangeInfo", "method": "GET", "params": {}, "status_code": 200, "response_time_ms": 754.5621395111084}
+{"timestamp": "2025-08-09T12:37:07.538520", "level": "INFO", "logger": "binance_bot", "message": "Placing spot market order: ETHUSDT SELL 0.01"}
+{"timestamp": "2025-08-09T12:37:08.583367", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "ETHUSDT", "side": "SELL", "type": "MARKET", "quantity": 0.01, "timestamp": 1754723227538}, "status_code": 200, "response_time_ms": 1044.847011566162}
+{"timestamp": "2025-08-09T12:37:08.583367", "level": "INFO", "logger": "binance_bot", "message": "Spot market order placed successfully - Order ID: 9838663"}
+{"timestamp": "2025-08-09T12:37:14.282699", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:37:14.881784", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/exchangeInfo", "method": "GET", "params": {}, "status_code": 200, "response_time_ms": 599.0843772888184}
+{"timestamp": "2025-08-09T12:37:14.907295", "level": "INFO", "logger": "binance_bot", "message": "Placing spot limit order: BTCUSDT BUY 0.001 @ $50000.0"}
+{"timestamp": "2025-08-09T12:37:15.077546", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "timeInForce": "GTC", "quantity": 0.001, "price": 50000.0, "timestamp": 1754723234907}, "status_code": 200, "response_time_ms": 170.25113105773926}
+{"timestamp": "2025-08-09T12:37:15.079555", "level": "INFO", "logger": "binance_bot", "message": "Spot limit order placed successfully - Order ID: 13519701"}
+{"timestamp": "2025-08-09T12:37:18.531854", "level": "INFO", "logger": "binance_bot", "message": "SpotOrderManager initialized"}
+{"timestamp": "2025-08-09T12:37:19.348786", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/exchangeInfo", "method": "GET", "params": {}, "status_code": 200, "response_time_ms": 816.9314861297607}
+{"timestamp": "2025-08-09T12:37:19.368681", "level": "INFO", "logger": "binance_bot", "message": "Placing spot limit order: ETHUSDT SELL 0.01 @ $4000.0"}
+{"timestamp": "2025-08-09T12:37:19.549622", "level": "INFO", "logger": "binance_bot", "message": "", "type": "API_CALL", "endpoint": "/api/v3/order", "method": "POST", "params": {"symbol": "ETHUSDT", "side": "SELL", "type": "LIMIT", "timeInForce": "GTC", "quantity": 0.01, "price": 4000.0, "timestamp": 1754723239368}, "status_code": 200, "response_time_ms": 180.9408664703369}
+{"timestamp": "2025-08-09T12:37:19.560163", "level": "INFO", "logger": "binance_bot", "message": "Spot limit order placed successfully - Order ID: 9838675"}

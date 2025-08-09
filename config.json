@@ -1,0 +1,12 @@
+{
+    "api_key": "2KhFLQvULF43XQ8W4jtyRxHJLenh6DHeJqngF3Xw2HnAtaJPW78YOcpXbkz8G7yF",
+    "api_secret": "5luwVRUI0n11xe7x1mlampYiB9Te8qQDx1ELJmTKErK1yXN0GHJnstOs4JmbeXQg",
+    "use_testnet": true,
+    "base_url": "https://testnet.binance.vision",
+    "log_file": "bot.log",
+    "log_level": "INFO",
+    "default_leverage": 1,
+    "max_position_size": 1000.0,
+    "request_timeout": 30,
+    "max_retries": 3
+}
